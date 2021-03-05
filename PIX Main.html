@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PIX Main</title>
+	<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <style>
+	html{
+		cursor: url('P.png'), url('P.png'), default;
+	}
+		@keyframes menu{
+		0%{transform: translate(-208px, 0);}
+		100%{transform: translate(0px, 0);}
+		}
+		@keyframes menu2{
+		0%{transform: translate(204px, 0);}
+		100%{transform: translate(0px, 0);}
+		}
+		.butt{
+			margin-left: 6px;
+            margin-top: 2px;
+			cursor: url('P.png'), url('P.png'), default;
+        }
+		.men1{
+			top: 2px;
+			left: 2px;
+			position: fixed;
+			z-index: 1;
+			height: 220px;
+			width: 200px;
+			background: #FFEFD5;
+			border: 2px solid black;
+            padding: 2px;
+		}
+		.men2{
+			top: 2px;
+			left: 2px;
+			position: fixed;
+			z-index: 1;
+			height: 220px;
+			width: 200px;
+			background: #FFEFD5;
+			animation: menu 0.3s normal 1;
+			border: 2px solid black;
+            padding: 2px;
+		}
+		.men3{
+			top: 2px;	
+            left: -208px;
+			position: fixed;
+			z-index: 1;
+			height: 220pxpx;
+			width: 200px;
+			background: #FFEFD5;
+			animation: menu2 0.3s normal 1;
+			border: 2px solid black;
+            padding: 2px;
+        }
+		body{
+		margin: 2px;
+		background: #FFEFD5;
+		}
+		A{
+		color: #990000;
+		cursor: url('P.png'), url('P.png'), default;
+		}
+		A:visited{
+		color: #990000;
+		cursor: url('P.png'), url('P.png'), default;
+		}
+		A:active{
+		color: #FF0000;
+		cursor: url('P.png'), url('P.png'), default;
+		}
+		Img{
+		margin: 2px 2px 2px 50px;
+		border: 1px solid black;
+		}
+    </style>
+</head
+<body id="bodyy">	
+	<div class="men1" id="mm">
+	Меню:
+   <BR> Q - Вызвать/скрыть меню
+   <BR><a href="#1">1) Что можно делать в PIX</a>
+   <BR><a href="#2">2) Какие возможности есть в PIX</a>
+   <BR><a href="#3">3) Скриншоты некоторых работ в PIX</a>
+   <BR><a href="#4">4) Советы по улучшению</a>
+   <BR>
+   <input type="button" id="knopka" value="Рисование" class="butt">
+   <BR>
+   <input type="button" id="knopka2" value="Коды цветов" class="butt">
+    <BR>
+    <input type="button" id="knopka3" value="Анимация" class="butt">
+   </div>
+   </div>
+   <Table border="1px" align="center" cellpadding="2px" width="1192px" bordercolor="black">
+	<tr><td colspan="2" background="Pix6.png" height="100px"></td></tr>
+   <tr><td width="150px" align="center"><H1>Главная</H1></td>
+    <td align="center"><font size="6">Для чего создан PIX</font></td></tr>
+   <tr><td colspan="2">
+   <font size="5"><a name="1"></a>Что можно делать в PIX?</font>
+    <P>В PIX можно создавать Pixel Art изображения, для этого в нём имеется несколько различных инструментов.
+    <P><font size="5"><a name="2"></a>Какие возможности есть в PIX?</font>
+    <ul>
+     <li>Выбор из 16777216 цветов, которые можно задать шестнадацатеричным кодом (36 наиболее частых есть в панели);</li>
+    <li>Два режима рисования: по отдельным квадратикам и линиями, следующими за мышью;</li>
+    <li>Два режима стирания: по отдельным квадратикам и линиями, следующими за мышью;</li>
+     <li>Режим наложения цвета, который позволяет задать фон любого цвета, не закрашивая сделанный рисунок;</li>
+    <li>Большой холст, на котором может поместиться несколько работ (30056 квадратов);</li>
+     <li>Возможность сделать фон разноцветным по нажатию одной клавиши;</li>
+    <li>В PIX Animation можно сохранять поля (до 50 полей) и перемещаться между ними, а также воспроизвести их, как слайд-шоу;</li>
+     <li>Возможность сменить тему со стандартной на неоновую (цвет холста и заднего фона);</li>
+     <li>Удобное меню, которое можно скрыть или вызвать нажатием клавиши Q.</li>  
+    </ul>
+    <P><font size="5"><a name="3"></a>Скриншоты некоторых работ в PIX:</font>
+        <P><Img src="Scrin1.png" title="Скриншот с логотипом PIX" height="360px"></Img>
+        <P><Img src="Scrin2.png" title="Скриншот с луной в неоновой теме" height="360px"></Img>
+        <P><Img src="Scrin3.png" title="Скриншот с цветными пикселями" height="360px"></Img>
+        <P><Img src="Scrin4.png" title="Скриншот с пикселями некоторых цветов из 36 стандартных" height="200px"></Img>
+        <P><Img src="Scrin5.png" title="Скриншот с лисой" height="360px"></Img>
+   </td>
+   </tr>
+   <tr><td colspan="2" align="center"><a name="4"></a>Если у вас будут какие-либо предложения по улучшению проекта, вы можете написать мне в Вконтакте (<A href="https://vk.com/darklordx">Дмитрий Семенов</A>).</td></tr>
+   <tr><td colspan="2" align="center">© <A href="https://vk.com/darklordx">Дмитрий Семенов</A>, 27.05.2017.</td></tr>
+   </Table>
+   <script>
+	'use strict'
+		let m = true;
+		knopka.addEventListener('click', function(){
+			document.location.href = "PIX.html";
+		});
+       knopka2.addEventListener('click', function(){
+			document.location.href = "PIX Colors.html";
+		});
+       knopka3.addEventListener('click', function(){
+			document.location.href = "PIX Animation.html";
+		});
+		document.addEventListener('keydown', getChar); 
+		function getChar(event){
+			if (event.keyCode==81) { if (m == false){mm.classList.add('men2'); mm.classList.remove('men1'); mm.classList.remove('men3'); m=true;} else {mm.classList.add('men3'); m=false};};	
+		};
+    </script>
+</body>
+</html>
